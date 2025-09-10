@@ -10,9 +10,10 @@
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
   --dim-white: rgba(255, 255, 255, 0.7);
-  --primary: "#00040f";
-  --secondary: "#00f6ff";
-  --dimBlue: "rgba(9, 151, 124, 0.1)";
+  --primary: #00040f;
+  --secondary: #00f6ff;
+  --dimBlue: rgba(9, 151, 124, 0.1);
+ 
 }
 
 * {
@@ -144,12 +145,20 @@
   color: var(--dim-white);
 }
 
-.bg-dimWhite {
-  background-color: var(--dim-white);
-}
 .text-primary {
   color: var(--primary);
 }
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.hover-text-secondary:hover {
+  color: var(--secondary);
+}
+
+
 .bg-dimBlue {
   background-color: var(--dimBlue);
 }
+
